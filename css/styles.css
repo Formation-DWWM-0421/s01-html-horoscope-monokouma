@@ -4,20 +4,27 @@
     background-color: #131b31;
     max-width : 768px;
     margin : 0 auto;
-    position: absolute;
-
+    position :relative;
 }
 
 body {
-    background-image:url('../images/background.jpg');
+
     font-family: 'Gugi', cursive;
     font-size: 1.1rem;
     line-height: 1.5;
-    position : relative;
     color: #fff;
 }  
 
-
+.background{
+    position : fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image:url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 footer {
     background-color: #101010 ;
