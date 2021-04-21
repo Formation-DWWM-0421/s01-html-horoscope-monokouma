@@ -1,0 +1,16 @@
+
+html {
+    background-image:url(image\background.jpg);
+}
+body {
+    background-color: #131b31;
+}
+
+
+footer {
+    background-color: #101010;
+    color: #a0a0a0;
+    text-align: center;
+    padding: 4rem 0;
+    font-size: .8rem;
+}
