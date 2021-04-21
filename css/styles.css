@@ -1,10 +1,15 @@
 
-html {
-    background-image:url(image\background.jpg);
-}
+
+
+
 body {
+    background-image:url(image\background.jpg);
+    font-family: 'Gugi', cursive;
     background-color: #131b31;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
+
 
 
 footer {
