@@ -1,21 +1,89 @@
 
 
+.bloc-page {
+    background-color: #131b31;
+    max-width : 768px;
+    margin : 0 auto;
+    position: absolute;
 
+}
 
 body {
-    background-image:url(image\background.jpg);
+    background-image:url('../images/background.jpg');
     font-family: 'Gugi', cursive;
-    background-color: #131b31;
     font-size: 1.1rem;
     line-height: 1.5;
-}
+    position : relative;
+    color: #fff;
+}  
 
 
 
 footer {
-    background-color: #101010;
+    background-color: #101010 ;
     color: #a0a0a0;
     text-align: center;
     padding: 4rem 0;
     font-size: .8rem;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 2s ease;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d6d1d4, 0 0 40px #e9e0e4, 0 0 50px #f7f1f4, 0 0 60px #f0f0f3, 0 0 70px #e4e0e2;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #e9e0e4, 0 0 40px #e9e0e4, 0 0 50px #e9e0e4, 0 0 60px #e9e0e4, 0 0 70px #e9e0e4, 0 0 80px #e9e0e4;
+    }
+  }
+
+  
+
+  .title-bar {
+    border-top: .3em solid #fff;
+    border-radius: 1em;
+    width: 36em;
+    margin: 3em auto 3em auto
+}
+
+
+.intro {
+    font-size: 0.8em;
+    font-style: italic;
+    justify-content: center;
+    padding : 0 5em;
+    word-spacing: .5em;
+    line-height: -.5em;
+    color : #d1d1d1;
+}
+
+.block-signe-horoscope {
+    border: 1px dashed white;    
+}
+
+.logo-horoscope {
+    padding : 1em 1em;
+    width: 3em;
+}
+
+h3 {
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    margin: 2em auto 2em auto;
+    
 }
